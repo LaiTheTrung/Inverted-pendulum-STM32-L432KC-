@@ -1,6 +1,5 @@
 # Inverted-pendulum-STM32-L432KC-
 
-image:
 ![1](https://github.com/LaiTheTrung/Inverted-pendulum-STM32-L432KC-/assets/100464098/1ab2a41d-2432-448c-b648-7d339d053517)
 
 ![2](https://github.com/LaiTheTrung/Inverted-pendulum-STM32-L432KC-/assets/100464098/7fee627e-ce9f-46d0-8023-d4ddcfe50fe9)
