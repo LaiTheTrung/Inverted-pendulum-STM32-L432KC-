@@ -1,0 +1,316 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: µVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: Trung Lai, HCM UTE, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.38.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.19
+Assembler:       Armasm.exe V6.19
+Linker/Locator:  ArmLink.exe V6.19
+Library Manager: ArmAr.exe V6.19
+Hex Converter:   FromElf.exe V6.19
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V3.1.0.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\MucHocTap\STM32\inverted_Pendulum\inverted_pendulum.uvprojx
+Project File Date:  05/28/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.19', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'Target 1'
+assembling startup_stm32l432xx.s...
+PID.c(1): warning: In file included from...
+./PID.h(1): warning: In file included from...
+C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include\stm32l4xx.h(11): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e.
+                                               ^
+C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include\stm32l4xx.h(12): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers
+                                                                    ^
+PID.c(1): warning: In file included from...
+./PID.h(1): warning: In file included from...
+C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include\stm32l4xx.h(132): warning: In file included from...
+C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l432xx.h(10): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+PID.c(1): warning: In file included from...
+./PID.h(7): warning: no newline at end of file [-Wnewline-eof]
+double PD(double P, double D, int expected,double ctr_value, int *mes_array, int deltaT );
+                                                                                          ^
+PID.c(47): warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+5 warnings generated.
+compiling PID.c...
+RTE/Device/STM32L432KCUx/system_stm32l4xx.c(92): warning: In file included from...
+C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include\stm32l4xx.h(11): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e.
+                                               ^
+C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include\stm32l4xx.h(12): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers
+                                                                    ^
+RTE/Device/STM32L432KCUx/system_stm32l4xx.c(92): warning: In file included from...
+C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include\stm32l4xx.h(132): warning: In file included from...
+C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l432xx.h(10): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+3 warnings generated.
+compiling system_stm32l4xx.c...
+main.c(1): warning: In file included from...
+C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include\stm32l4xx.h(11): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *              - To use or not the peripheral<92>s drivers in application code(i.e.
+                                               ^
+C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include\stm32l4xx.h(12): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *                code will be based on direct access to peripheral<92>s registers
+                                                                    ^
+main.c(1): warning: In file included from...
+C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include\stm32l4xx.h(132): warning: In file included from...
+C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l432xx.h(10): warning: invalid UTF-8 in comment [-Winvalid-utf8]
+  *           - Macros to access peripheral<92>s registers hardware
+                                           ^
+main.c(5): warning: In file included from...
+./PID.h(7): warning: no newline at end of file [-Wnewline-eof]
+double PD(double P, double D, int expected,double ctr_value, int *mes_array, int deltaT );
+                                                                                          ^
+main.c(6): warning: no previous extern declaration for non-static variable 'encoderCount' [-Wmissing-variable-declarations]
+volatile int encoderCount = 0;
+             ^
+main.c(6): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile int encoderCount = 0;
+         ^
+main.c(7): warning: no previous extern declaration for non-static variable 'encoderCountB' [-Wmissing-variable-declarations]
+volatile int encoderCountB = 0;
+             ^
+main.c(7): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile int encoderCountB = 0;
+         ^
+main.c(10): warning: no previous extern declaration for non-static variable 'checkBStatus' [-Wmissing-variable-declarations]
+volatile uint8_t checkBStatus = 0;
+                 ^
+main.c(10): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile uint8_t checkBStatus = 0;
+         ^
+main.c(11): warning: no previous extern declaration for non-static variable 'checkBPid' [-Wmissing-variable-declarations]
+volatile int checkBPid = 0;
+             ^
+main.c(11): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile int checkBPid = 0;
+         ^
+main.c(13): warning: no previous extern declaration for non-static variable 'stepPosition' [-Wmissing-variable-declarations]
+int stepPosition = 0;
+    ^
+main.c(13): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int stepPosition = 0;
+^
+main.c(15): warning: no previous extern declaration for non-static variable 'test' [-Wmissing-variable-declarations]
+int test = 0;
+    ^
+main.c(15): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int test = 0;
+^
+main.c(16): warning: no previous extern declaration for non-static variable 'Kp1' [-Wmissing-variable-declarations]
+double Kp1 = 0.1035;
+       ^
+main.c(16): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+double Kp1 = 0.1035;
+^
+main.c(17): warning: no previous extern declaration for non-static variable 'Kd1' [-Wmissing-variable-declarations]
+double Kd1 = 0.008;
+       ^
+main.c(17): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+double Kd1 = 0.008;
+^
+main.c(18): warning: no previous extern declaration for non-static variable 'Kp2' [-Wmissing-variable-declarations]
+double Kp2 = 0.5;
+       ^
+main.c(18): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+double Kp2 = 0.5;
+^
+main.c(19): warning: no previous extern declaration for non-static variable 'Kd2' [-Wmissing-variable-declarations]
+double Kd2 = 0.005;
+       ^
+main.c(19): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+double Kd2 = 0.005;
+^
+main.c(22): warning: no previous extern declaration for non-static variable 'rotDir' [-Wmissing-variable-declarations]
+uint8_t rotDir = 0;
+        ^
+main.c(22): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint8_t rotDir = 0;
+^
+main.c(23): warning: no previous extern declaration for non-static variable 'ARRset' [-Wmissing-variable-declarations]
+uint16_t ARRset = 0 ;
+         ^
+main.c(23): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint16_t ARRset = 0 ;
+^
+main.c(24): warning: no previous extern declaration for non-static variable 'encoderValue_array' [-Wmissing-variable-declarations]
+int encoderValue_array[2] = {0,0};
+    ^
+main.c(24): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int encoderValue_array[2] = {0,0};
+^
+main.c(25): warning: no previous extern declaration for non-static variable 'stepPosition_array' [-Wmissing-variable-declarations]
+int stepPosition_array[2] = {0,0};
+    ^
+main.c(25): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int stepPosition_array[2] = {0,0};
+^
+main.c(26): warning: no previous extern declaration for non-static variable 'deltaT' [-Wmissing-variable-declarations]
+int deltaT = 5;
+    ^
+main.c(26): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int deltaT = 5;
+^
+main.c(127): warning: implicit conversion loses integer precision: 'volatile uint32_t' (aka 'volatile unsigned int') to 'uint16_t' (aka 'unsigned short') [-Wimplicit-int-conversion]
+        adc_value = ADC1->DR;
+                  ~ ~~~~~~^~
+main.c(137): warning: no previous extern declaration for non-static variable 'Mask' [-Wmissing-variable-declarations]
+uint8_t Mask = 15; //0b00001111 -> get 4 value on the right
+        ^
+main.c(137): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint8_t Mask = 15; //0b00001111 -> get 4 value on the right
+^
+main.c(138): warning: no previous extern declaration for non-static variable 'refEncode' [-Wmissing-variable-declarations]
+uint8_t refEncode = 0 ;
+        ^
+main.c(138): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+uint8_t refEncode = 0 ;
+^
+main.c(145): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode == 0b1101 || refEncode == 0b0100  || refEncode == 0b0010 || refEncode == 0b1011) {
+                        ^
+main.c(145): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode == 0b1101 || refEncode == 0b0100  || refEncode == 0b0010 || refEncode == 0b1011) {
+                                               ^
+main.c(145): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode == 0b1101 || refEncode == 0b0100  || refEncode == 0b0010 || refEncode == 0b1011) {
+                                                                       ^
+main.c(145): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode == 0b1101 || refEncode == 0b0100  || refEncode == 0b0010 || refEncode == 0b1011) {
+                                                                                              ^
+main.c(148): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode  == 0b1110 || refEncode == 0b0111 || refEncode == 0b0001 || refEncode == 0b1000) {
+                         ^
+main.c(148): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode  == 0b1110 || refEncode == 0b0111 || refEncode == 0b0001 || refEncode == 0b1000) {
+                                                ^
+main.c(148): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode  == 0b1110 || refEncode == 0b0111 || refEncode == 0b0001 || refEncode == 0b1000) {
+                                                                       ^
+main.c(148): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode  == 0b1110 || refEncode == 0b0111 || refEncode == 0b0001 || refEncode == 0b1000) {
+                                                                                              ^
+main.c(141): warning: mixing declarations and code is incompatible with standards before C99 [-Wdeclaration-after-statement]
+        uint8_t EA = (GPIOA->IDR)&(1<<1);
+                ^
+main.c(160): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode == 0b1101 || refEncode == 0b0100  || refEncode == 0b0010 || refEncode == 0b1011) {
+                        ^
+main.c(160): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode == 0b1101 || refEncode == 0b0100  || refEncode == 0b0010 || refEncode == 0b1011) {
+                                               ^
+main.c(160): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode == 0b1101 || refEncode == 0b0100  || refEncode == 0b0010 || refEncode == 0b1011) {
+                                                                       ^
+main.c(160): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode == 0b1101 || refEncode == 0b0100  || refEncode == 0b0010 || refEncode == 0b1011) {
+                                                                                              ^
+main.c(163): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode  == 0b1110 || refEncode == 0b0111 || refEncode == 0b0001 || refEncode == 0b1000) {
+                         ^
+main.c(163): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode  == 0b1110 || refEncode == 0b0111 || refEncode == 0b0001 || refEncode == 0b1000) {
+                                                ^
+main.c(163): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode  == 0b1110 || refEncode == 0b0111 || refEncode == 0b0001 || refEncode == 0b1000) {
+                                                                       ^
+main.c(163): warning: binary integer literals are a GNU extension [-Wgnu-binary-literal]
+        if(refEncode  == 0b1110 || refEncode == 0b0111 || refEncode == 0b0001 || refEncode == 0b1000) {
+                                                                                              ^
+main.c(156): warning: mixing declarations and code is incompatible with standards before C99 [-Wdeclaration-after-statement]
+        uint8_t EA = (GPIOA->IDR)&(1<<1);
+                ^
+main.c(197): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                else GPIOA->ODR &= ~(1<<4);
+                                ~~ ^~~~~~~
+main.c(203): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+                        TIM7->CR1 &= ~(1<<0);
+                                  ~~ ^~~~~~~
+main.c(222): warning: implicit conversion changes signedness: 'int' to 'unsigned int' [-Wsign-conversion]
+        else GPIOA->ODR &= ~(1<<4);
+                        ~~ ^~~~~~~
+main.c(369): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                                        Rotate(abs(rotCtr),rotDir);
+                                        ~~~~~~ ^~~~~~~~~~~
+main.c(373): warning: implicit conversion changes signedness: 'int' to 'uint32_t' (aka 'unsigned int') [-Wsign-conversion]
+                                                while (abs(encoderCount)<60){ Rotate(abs(rotCtr),rotDir);}
+                                                                              ~~~~~~ ^~~~~~~~~~~
+main.c(380): warning: no newline at end of file [-Wnewline-eof]
+}
+ ^
+main.c(8): warning: no previous extern declaration for non-static variable 'currentStepPosition' [-Wmissing-variable-declarations]
+int currentStepPosition;
+    ^
+main.c(8): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int currentStepPosition;
+^
+main.c(9): warning: no previous extern declaration for non-static variable 'angle2Step' [-Wmissing-variable-declarations]
+int angle2Step;
+    ^
+main.c(9): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+int angle2Step;
+^
+main.c(12): warning: no previous extern declaration for non-static variable 'adc_value' [-Wmissing-variable-declarations]
+volatile uint16_t adc_value;
+                  ^
+main.c(12): note: declare 'static' if the variable is not intended to be used outside of this translation unit
+volatile uint16_t adc_value;
+         ^
+49 warnings generated.
+compiling main.c...
+linking...
+Program Size: Code=6436 RO-data=428 RW-data=24 ZI-data=1688  
+".\Objects\inverted_pendulum.axf" - 0 Error(s), 57 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32L4xx_DFP.2.6.1.pack
+                Keil.STM32L4xx_DFP.2.6.1
+                STMicroelectronics STM32L4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.3.1
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Target_1
+  C:/Users/THETRUNG/AppData/Local/Arm/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  C:/Users/THETRUNG/AppData/Local/Arm/Packs/Keil/STM32L4xx_DFP/2.6.1/Drivers/CMSIS/Device/ST/STM32L4xx/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+
+   * Component: Keil::Device:Startup:1.3.1
+      Source file:   MDK/Device/Source/ARM/STM32L4xx_SB_OPT.s
+      Source file:   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/arm/startup_stm32l432xx.s
+      Include file:  Drivers/CMSIS/Device/ST/STM32L4xx/Include/stm32l4xx.h
+      Source file:   Drivers/CMSIS/Device/ST/STM32L4xx/Source/Templates/system_stm32l4xx.c
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
